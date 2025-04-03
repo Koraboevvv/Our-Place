@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Place</title>
+    <link rel="icon" href="./src/assets/logo.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body class="dark:bg-dark">
+    <div class="bg-primary text-[#670A18] text-center py-2.5 dark:bg-slate-900 dark:text-white max-lg:hidden">
+        <p class=" text-xs">
+            SHIPPING AND RETURNS ARE ALWAYS FREE FROM OUR PLACE TO YOURS 🙂
+        </p>
+    </div>
+    <header class="sticky top-0 z-30 backdrop-blur-sm">
+        <nav class="container flex h-[82px] justify-between items-center relative dark:text-white">
+            <div class="flex gap-8 uppercase font-bold text-[13px] max-md:hidden">
+                <a href="#">
+                    <span>Shop</span>
+                </a>
+                <a href="#">
+                    <span>Always Pan</span>
+                </a>
+            </div>
+            <div class="absolute max-md:static left-1/2 md:-translate-x-1/2">
+                <img src="./src/assets/logo-wight.svg" class="max-md:w-24 hidden dark:block" alt="">
+                <img src="./src/assets/logo.svg" class="max-md:w-24 block dark:hidden" alt="">
+            </div>
+            <div class="flex  items-center gap-8 uppercase font-bold text-[13px] max-md:hidden">
+                <a href="#">
+                    <span>Mission</span>
+                </a>
+                <a href="#">
+                    <span>FAQs</span>
+                </a>
+                <button onclick="darkMode()" class="size-9 flex items-center justify-center text-white dark:bg-amber-950 bg-[#C87B5E] rounded-full cursor-pointer" href="#">
+                    <div class=" block dark:hidden">
+                        <i class="fa-solid fa-moon  "></i>
+                    </div>
+                    <div class="hidden dark:block">
+                        <i class="fa-solid fa-sun  "></i>
+                    </div>
+                </button>
+            </div>
+            <button onclick="darkMode()" class="hidden max-md:block">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section class="h-[604px] flex items-center pl-[22%] max-md:pl-4 max-[500px]:h-[450px] relative">
+            <img src="./src/assets/hero.png" class="absolute top-0 left-0 dark:brightness-50 w-full h-full object-cover" alt="">
+            <div class="dark:text-white relative">
+                <p class="uppercase">Meet The Always Pan</p>
+                <h1 class="text-[50px] max-[500px]:text-4xl mb-14 mt-2">Your new <br><span class="underline">skillet</span></h1>
+                <button class="py-5 px-10 max-[500px]:py-3 max-[500px]:px-7 max-[500px]:font-semibold bg-[#D37657] uppercase text-white tet-sm font-bold rounded-[2px] cursor-pointer">Shop the Always Pan</button>
+            </div>
+        </section>
+        <section class="bg-primary min-h-[212px] flex dark:bg-slate-900 ">
+            <div class="container ">
+                <h2 class="mt-[44px] text-center mb-[23px] text-[24px] font-bold uppercase max-w-[629px] mx-auto dark:text-white max-[500px]:text-[18px]">"Doing the job of eight traditional cookware pieces"</h2>
+                <div class="grid grid-cols-4 max-[1024px]:grid-cols-2  max-lg:gap-[30px] max-[500px]:grid-cols-1">
+                    <div class="mx-auto ">
+                        <img src="./src/assets/Rectangle (4).svg" class=" block dark:hidden" alt="">
+                        <img src="./src/assets/Rectangle dark (3).svg" class="hidden dark:block" alt="">
+                    </div>
+                    <div class="mx-auto">
+                        <img src="./src/assets/Rectangle (5).svg"  class=" block dark:hidden" alt="">
+                        <img src="./src/assets/Rectangle (8).svg" class="hidden dark:block" alt="">
+                    </div>
+                    <div class="mx-auto">
+                        <img src="./src/assets/Rectangle (6).svg" class=" block dark:hidden" alt="">
+                        <img src="./src/assets/Rectangle dark (1).svg" class="hidden dark:block" alt="">
+                    </div>
+                    <div class="mx-auto mb-[15px]">
+                        <img src="./src/assets/Rectangle (7).svg" class=" block dark:hidden" alt="">
+                        <img src="./src/assets/Rectangle dark (2).svg" class="hidden dark:block" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="min-h-[340px]  items-center">
+            <div class="container">
+                <div class="flex justify-between  items-center mt-[121px] max-lg:flex-col max-lg:text-center max-lg:">
+                    <h3 class="w-[45%] text-[41px] font-bold max-w-[400px] text-center dark:text-white max-lg:max-w-[600px] max-lg:mb-[20px]">Welcome to Our Place</h3>
+                    <p class="w-[55%] text-[#4F463F] dark:text-white text-[16px] mb-[33px]">At Our Place, we believe in the power of home-cooking to bring people together. Our collections are new heirlooms from the cultures and places that make up the fabric of the modern multi-ethnic kitchen. We design thoughtfully, source ethically, and produce sustainably because what we make is connected to one another and the earth we share.</p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-primary dark:bg-slate-900">
+            <h2 class="text-center text-[35px] py-[60px] relative z-10 dark:text-white">Designed for Everything and Always</h2>
+            <img src="./src/assets/Frame (11).svg" class="mx-auto mb-[45px] relative z-10" alt="">
+            <div class="container mx-auto">
+            <img src="./src/assets/Frame (13).svg" class="dark:brightness-50 w-full mx-auto object-cover block dark:hidden" alt="">
+            <img src="./src/assets/Frame (14).svg" class="dark:brightness-50 w-full mx-auto object-cover hidden dark:block" alt="">
+
+            </div>
+
+        </section >
+        <section class=" dark:bg-slate-900 mb-[55px]">
+            <h2 class="font-bold text-center text-[33px] mt-[73px] mb-[19px] dark:text-white">From curated essentials to <br><span> limited-run editions.</span></h2>
+            <p class="text-center text-[18px] text-[#4F463F] dark:text-white mb-[80px]">We make products inspired by traditions – and we're <br><span>starting with one you might be familiar with: Dinner.</span></p>
+            <div class="">
+                <div class="grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 gap-[60px] dark:text-white container">
+                    <div class="">
+                        <div class="bg-amber-100 rounded-[290px] dark:bg-[#7a7664]">
+                            <img src="./src/assets/image 1 (1).svg" class="mx-auto " alt="">
+                        </div>
+                        <div class="text-center ">
+                            <p class="mb-[4px] mt-[15px]">Side Bowls</p>
+                            <p class="text-[#6E635A] dark:text-white">Side Bowls-$45</p>
+                            <p class=" text-[#6E635A] text-[11px] max-w-[161px] mx-auto mb-[41px] mt-[6px] dark:text-white">Hand-painted porcelain stackable bowls, designed for plating, eating, and scooping.</p>
+                            <img src="./src/assets/Frame (15).svg" class="mx-auto mb-[25px]" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bg-amber-100 dark:bg-[#7a7664] rounded-[290px]">
+                            <img src="./src/assets/image 2.svg" class="mx-auto" alt="">
+                        </div>
+                        <div class="text-center">
+                            <p class="mb-[4px] mt-[15px]">Drinking Glasses</p>
+                            <p class="text-[#6E635A] dark:text-white">SET OF 4 -$50</p>
+                            <p class=" text-[#6E635A] dark:text-white text-[11px] max-w-[161px] mx-auto mb-[30px] mt-[6px]">Hand-made and stackable. Made from recycled glass and natural sand. Naturally colored, without dyes.</p>
+                            <img src="./src/assets/Frame (20).svg" class="mx-auto mb-[25px]" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bg-amber-100 rounded-[290px] dark:bg-[#7a7664]">
+                            <img src="./src/assets/image 3.svg" class="mx-auto" alt="">
+                        </div>
+                        <div class="text-center">
+                            <p class="mb-[4px] mt-[15px]">Main Plates</p>
+                            <p class="text-[#6E635A] dark:text-white">SET OF 4 -$50</p>
+                            <p class=" text-[#6E635A] dark:text-white text-[11px] max-w-[161px] mx-auto mb-[41px] mt-[6px]">Hand-painted porcelain plates, stackable and designed for big appetites.</p>
+                            <img src="./src/assets/Frame (15).svg" class="mx-auto mb-[25px]" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class=" bg-amber-100 rounded-[290px] dark:bg-[#7a7664]">
+                            <img src="./src/assets/image 3.svg" class="mx-auto " alt="">
+                        </div>
+                        <div class="text-center">
+                            <p class="mb-[4px] mt-[15px]">Always Pan</p>
+                            <p class="text-[#6E635A] dark:text-white">$145</p>
+                            <p class=" text-[#6E635A] dark:text-white text-[11px] max-w-[184px] mx-auto mb-[25px] mt-[6px]">Thoughtfully designed to be the perfect size and shape to do the work of eight pieces of traditional cookware.</p>
+                            <img src="./src/assets/Frame (21).svg" class="mx-auto mb-[25px]" alt="">
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="mx-auto container">
+            <div class="grid grid-cols-3 max-lg:grid-cols-1  text-center items-center bg-[#F5F1E9] dark:bg-[#7a7664]">
+                <div class="dark:brightness-50 max-lg:mx-auto ">
+                    <img src="./src/assets/Frame (22).svg" alt="">
+                </div>
+                <div class="">
+                    <p class="uppercase text-[11px] font-normalc mt-[40px]  dark:text-white">#DirtyDishes</p>
+                    <h3 class="font-bold text-[24px] mb-[61px]  dark:text-white mt-[33px]">A full sink is a sign of a great night. <br><span> You wash, we'll dry.</span></h3>
+                    <button class="cursor-pointer mb-[40px] py-[21px] bg-white px-[61px] uppercase text-[12px] font-bold rounded border-[#AAA0984A]">Follow Along</button>
+                </div>
+                <div class="dark:brightness-50 max-lg:mx-auto">
+                    <img src="./src/assets/Frame (23).svg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#6b684a] text-white py-10 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div>
+                <h2 class="text-lg font-semibold flex items-center gap-2">Keep in touch <span>😊</span></h2>
+                <p class="text-sm mt-2">Be the first to know about new collections, special events, and what’s going on at Our Place.</p>
+                <div class="mt-4 flex items-center bg-white rounded-md overflow-hidden">
+                    <input type="email" placeholder="Your email" class="flex-1 px-4 py-2 text-black outline-none" />
+                    <button class="px-4 py-2 bg-gray-900 text-white font-semibold">SUBMIT</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="font-semibold mb-2">SHOP</h3>
+                <ul class="space-y-1 text-sm">
+                    <li>Main Plates</li>
+                    <li>Side Bowls</li>
+                    <li>Drinking Glasses</li>
+                    <li>Family Dinner</li>
+                    <li>Bundle</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold mb-2">COMPANY</h3>
+                <ul class="space-y-1 text-sm">
+                    <li>Mission</li>
+                    <li>FAQs</li>
+                    <li>Contact Us</li>
+                    <li>Returns</li>
+                    <li>Bulk Orders</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold mb-2">SOCIAL</h3>
+                <ul class="space-y-1 text-sm">
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                </ul>
+                <div class="mt-4">
+                    <h4 class="font-semibold text-sm">YOU’RE IN</h4>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="">
+                            <img src="./src/assets/Frame (25).svg" alt="">
+                        </span>
+                        <span class="">
+                            <img src="./src/assets/Frame (26).svg" alt="">
+                        </span>
+                    </div>
+                </div>
+            </div>
+                </div>
+            <div class=" border-t border-gray-500 mt-6 pt-4 text-sm text-gray-300 flex justify-between">
+                <span>© Our Place 2021</span>
+                <div class="flex gap-4">
+                    <span>Privacy</span>
+                    <span>Terms</span>
+                    <span>Returns</span>
+                    <button >
+                        <img src="./src/assets/Frame (24).svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./src/js/app.js"></script>
+</body>
+</html>
