@@ -660,6 +660,12 @@
   .border-gray-500 {
     border-color: var(--color-gray-500);
   }
+  .bg-\[\#\#6C674D\] {
+    background-color: ##6C674D;
+  }
+  .bg-\[\#6C674D\] {
+    background-color: #6C674D;
+  }
   .bg-\[\#6b684a\] {
     background-color: #6b684a;
   }
